@@ -10,5 +10,5 @@ county_summary = df.groupby("county").agg(
 ).reset_index()
 
 # 3. Output results summary
-print(" Amref Project Performance Summary ")
+print(" Amref Project Performance Summary  ")
 print(county_summary)
